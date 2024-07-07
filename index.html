@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=width-device, initial-scale=1.0">
+    <meta name="description" content="Fireball Landing Page">
+    <title>Fireball</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Ga Maamli' rel='stylesheet'>
+  </head>
+  <header id="header">
+    <nav id="nav-bar">
+      <ul>
+        <li>
+          <a href="#store" class="link nav-link">Buy Now</a>
+        </li>
+        <li>
+          <a href="#ad" class="link nav-link">Ad</a>
+        </li>
+        <li>
+          <a href="#About" class="link nav-link">About</a>
+        </li>
+        <li>
+          <a href="#home" class="link nav-link red" id="brand">FIREBALL WHISKEY</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <h1 id="home" class="logolink red">Fireball Whiskey</h1>
+      <p id="quote">BURNS LIKE HELL, Tastes Like Heaven.</p>
+      <section id="About" class="box">
+        <div  class="icon-title-info">
+            <div class="about-origin-section">
+                <img id="about-home" src="home.svg" alt="House Icon">
+                <h2>Origin</h2>
+            </div>
+            <p>Fireball was developed in Canada in the mid-1980s and was originally called Dr. McGillicuddy's Fireball Whisky.</p>
+        </div>
+        <div class="icon-title-info">
+            <div class="about-alcohol-section">
+                <img id="about-alcohol" src="beer.svg" alt="Beer Icon">
+                <h2>Alcohol By Volume (ABV)</h2>
+            </div>
+            <p>Fireball is 66 proof, or 33% ABV, which is 20% less alcohol than most whiskies.</p>
+        </div>
+        <div class="icon-title-info">
+            <div class="about-taste-section">
+                <img id="about-taste" src="fire.svg" alt="Fire Icon">
+                <h2>Taste</h2>
+            </div>
+            <p>Fireball has a smooth flavor with a subtle kick and sweet aftertaste. Some say it tastes like red hots soaked in water.</p>
+        </div>
+        <div id="ad">
+            <iframe id="video" title="Fireball" src="https://www.youtube.com/embed/W49Y6Ka7KvU"></iframe>
+        </div>
+        <div class="signup">
+            <h2 class="more-fire">ADD MORE FIRE TO YOUR INBOX</h2>
+            <form id="form"  method="post" action="https://formspree.io/f/manwyaey">
+                <label><input id="email" name="email" type="email" placeholder="Give Us That Email"></label>
+                <input id="submit" type="submit" value="Sign Up Now">
+            </form>
+        </div>
+      </section>
+      <section id="store">
+        <h3 id="top3">Top 3 Selling Whiskey In America!</h3>
+        <div class="flex-container">
+          <div class="product">
+            <h4 class="store-item">FIREBALL WHISKEY 375ML</h4>
+            <img class="store-image" alt="Fireball 375mL" src="fireball375.svg">
+            <button class="store-button">$8.99</button>            
+          </div>
+          <div class="product">
+            <h4 class="store-item">FIREBALL WHISKEY 750ML</h4>
+            <img class="store-image" alt="Fireball 375mL" src="fireball750.svg">
+            <button class="store-button">$12.99</button> 
+          </div>
+          <div class="product">
+            <h4 class="store-item">FIREBALL WHISKEY 1.75L</h4>
+            <img class="store-image" alt="Fireball 375mL" src="fireball175l.svg">
+            <button class="store-button">$25.99</button> 
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer></footer>
+</html>

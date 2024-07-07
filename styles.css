@@ -1,0 +1,246 @@
+@media (prefers-reduced-motion: no-preference) {
+   * {
+      scroll-behavior: smooth;
+   }
+}
+  
+* {
+   font-family: Tahoma, sans-serif;
+   box-sizing: border-box;
+}
+ 
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+  
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;    
+}
+ 
+li {
+  list-style-type: none;
+}
+ 
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin: 40px;
+  margin-left: 0;
+  padding-left: 0;
+  padding: 18px;
+}
+
+nav a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+#brand {
+  font-weight: bold;
+}
+
+nav #brand:hover {
+  background-color: white;
+  color: #c8102e;
+}
+ 
+#header-img {
+  width: 130px;
+  height: 56px;
+  background-color: black;
+  position: relative;
+  top: 0px;
+  left: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+main {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.red {
+    color: #c8102e;
+}
+
+#quote {
+  font-size: 24px;
+  font-family: Ga Maamli, sans-serif;
+}
+
+h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 50px;
+}
+ 
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+  
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  gap: 15px;
+}
+ 
+.product {
+  background-color: white;
+  height: 640px;
+  width: 33%;
+  margin: 10;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+ 
+.store-item {
+  font-weight: bold;
+  font-size: 32px;
+  border-bottom: 1px solid #c8102e;
+  margin-top: 10px;
+  padding-top: 0;
+}
+
+.store-image {
+  height: 450px;
+  margin-top: 0;
+  border-bottom: 1px solid red;
+}
+  
+.price:hover {
+  cursor: pointer;
+  color: white;
+  background-color: darkred;
+}
+  
+.about-origin-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-alcohol-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-taste-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon-title-info {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.box {
+    height: 1000px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+#video {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 400px;
+    width: 680px;
+}
+
+#submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 15%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #c8102e;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+#email {
+    height: 50px;
+    width: 30%;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+#email::placeholder {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: Ga Maamli, sans-serif;
+}
+
+.more-fire {
+    border-bottom: 2px solid black;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-family: Ga Maamli, sans-serif;
+    font-size: 30px;
+}
+
+#top3 {
+  font-family: Tahoma, sans-serif;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.store-button {
+  margin-top: 27px;
+  background-color: #c8102e;
+  color: white;
+  width: 20%;
+  height: 5%;
+}
+.store-button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
